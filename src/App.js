@@ -52,7 +52,7 @@ function App() {
 
   return (
     <>
-      <Navbar title="Navbars" about="About us" mode={mode} mode1={mode1} togglemode={togglemode} togglemode1={togglemode1} />
+      <Navbar title="Textutil" about="About us" mode={mode} mode1={mode1} togglemode={togglemode} togglemode1={togglemode1} />
       <div className="container my-3">
         <Alert alert={alert} />
         <Textform showAlert={showAlert} mode={mode} />
